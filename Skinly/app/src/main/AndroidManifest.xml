@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ron.apps.skinly">
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skinly">
+        <activity
+            android:name=".AddProduct_"
+            android:exported="true" />
+        <activity
+            android:name=".Products_"
+            android:exported="true" />
+        <activity android:name=".EditDailyScreen_" />
+        <activity android:name=".EditUser_" />
+        <activity android:name=".AdminScreen_" />
+        <activity android:name=".RegisterScreen_" />
+        <activity android:name=".DailyScreen_" />
+        <activity android:name=".MainScreen_" />
+        <activity android:name=".MainActivity_">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
